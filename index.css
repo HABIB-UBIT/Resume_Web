@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+}
+
+.container {
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    /* border: 1px solid black; */
+    height: 1050px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container .container-top {
+    display: flex;
+}
+
+.container .container-top .content {
+    margin: 50px 70px;
+}
+
+.container .image {
+    width: 18%;
+    height: 50%;
+    margin: 50px 70px;
+    border-radius: 50%;
+}
+
+.container .image img {
+    width: 100%;
+    height:140%;
+    border-radius: 50%;
+
+}
+
+.container .content .icon-content img {
+    width: 20px;
+}
+
+.container .container-top .content h1 {
+    margin-bottom: 15px;
+}
+
+.container .container-top hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:1px;
+    border: none;
+    background: #D2B48C;
+}
+
+.container .container-top .image h3 {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.container .content .icon-content #first-icon {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container .content .icon-content #second-icon {
+    position: relative;
+    top: -23px;
+    left: 140px;
+    cursor: pointer;
+}
+
+.container .content .icon-content #third-icon {
+
+    cursor: pointer;
+}
+
+.container .content .icon-content #forth-icon {
+    position: relative;
+    top: -23px;
+    left: 140px;
+    cursor: pointer;
+}
+
+.section-2 {
+    display: flex;
+}
+
+.section-2 .content-2 {
+    position: relative;
+    top: 0;
+    left: 70px;
+}
+
+.section-2 .content-1 h5 {
+    margin-bottom: 7px;
+    margin-right: -26px;
+}
+
+.section-2 .content-2 ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.section-2 .content-1{
+    color: #D2B48C;
+}
